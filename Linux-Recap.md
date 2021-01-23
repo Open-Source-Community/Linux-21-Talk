@@ -2,12 +2,12 @@
 
 
 
-- [ ] ## Commands Structure and man pages
+ - [ ] Commands Structure and man pages
 
   - [ ] [sudo] command [-options] [arguments]
   - [ ] man command
 
-- [ ] ## File System Navigation
+- [ ] File System Navigation
 
   - [ ] pwd
   - [ ] ls
@@ -18,7 +18,7 @@
   - [ ] rm -r   -> remove recursively 
 
 
-- [ ] ## Text File Manipulation
+- [ ]  Text File Manipulation
 
   - [ ] touch
   - [ ] cat
@@ -35,7 +35,7 @@
   - [ ] tail        -> prints the last 10 lines by default
 
 
-- [ ] ## Users
+- [ ] Users
 
    - [ ] id -> displays the details of the active user e.g. uid, gid, groups
    - [ ] adduser "name"
@@ -45,12 +45,12 @@
    - [ ] last -> shows the last logins in the system
    - [ ] who -> who is logged in
 
-- [ ] ## Files Permissions
+- [ ] Files Permissions
 
   - [ ] chmod 
   - [ ] chown
   
-- [ ] ## Package Manager
+- [ ] Package Manager
 
     - [ ] apt/yum/pacman/..
     - [ ] sudo apt install <package>
@@ -59,14 +59,14 @@
     - [ ] sudo apt-cache show <package> -> detailed info about the package  ex: firefox
     - [ ] sudo apt remove <package> -> removes an installed package
 
-- [ ] ## Processes
+- [ ] Processes
   - [ ] ps
   - [ ] top
   - [ ] kill <pid>
   - [ ] killall <pname>
 
 
-- [ ] ## Networking
+- [ ] Networking
 
   - [ ] hostname -i -> displays local ip address 
   - [ ]  ifconfig -> display IP addresses of all network interfaces
