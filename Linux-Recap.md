@@ -2,12 +2,12 @@
 
 
 
-- [x] ## Commands Structure and man pages
+- [ ] ## Commands Structure and man pages
 
   - [ ] [sudo] command [-options] [arguments]
   - [ ] man command
 
-- [x] ## File System Navigation
+- [ ] ## File System Navigation
 
   - [ ] pwd
   - [ ] ls
@@ -18,7 +18,7 @@
   - [ ] rm -r   -> remove recursively 
 
 
-- [x] ## Text File Manipulation
+- [ ] ## Text File Manipulation
 
   - [ ] touch
   - [ ] cat
@@ -35,23 +35,22 @@
   - [ ] tail        -> prints the last 10 lines by default
 
 
-- [x] ## Users
+- [ ] ## Users
 
-	- [ ] id -> displays the details of the active user e.g. uid, gid, groups
-	- [ ] adduser "name"
-  - [ ] su <username>
-   -  [ ]  groupadd "name"
+   - [ ] id -> displays the details of the active user e.g. uid, gid, groups
+   - [ ] adduser "name"
+   - [ ] su <username>
+   - [ ] groupadd "name"
    - [ ] userdel "name"
    - [ ] last -> shows the last logins in the system
+   - [ ] who -> who is logged in
 
-    - [ ] who -> who is logged in
-
-- [x] ## Files Permissions
+- [ ] ## Files Permissions
 
   - [ ] chmod 
   - [ ] chown
   
-- [x] ## Package Manager
+- [ ] ## Package Manager
 
     - [ ] apt/yum/pacman/..
     - [ ] sudo apt install <package>
@@ -60,14 +59,14 @@
     - [ ] sudo apt-cache show <package> -> detailed info about the package  ex: firefox
     - [ ] sudo apt remove <package> -> removes an installed package
 
--  [x] ## Processes
+- [ ] ## Processes
   - [ ] ps
   - [ ] top
   - [ ] kill <pid>
   - [ ] killall <pname>
 
 
-- [ ]  ## Networking
+- [ ] ## Networking
 
   - [ ] hostname -i -> displays local ip address 
   - [ ]  ifconfig -> display IP addresses of all network interfaces
@@ -81,12 +80,14 @@
   - SSH
     - [ ] ssh <username>@<host> -p <port>  -> securely connect to host as user - default port is 22
     - [ ] scp <file> <server>/<path> -> securely copy <file> in <path> in the <server>
-
+	
+  ### SSH Example
+  - Connect using ssh with theese info.
   host: **bandit.labs.overthewire.org**
-  
-  port: 2220
-  
-  username: **bandit0**
-  
+  port: **2220**  
+  username: **bandit0**  
   pass: **bandit0**
+	```bash
+	ssh bandit0@bandit.labs.overthewire.org -p 2220
+	```
 
